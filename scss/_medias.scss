@@ -1,0 +1,61 @@
+/* INDEX */
+
+@media (max-width: 768px) {
+    .multimedia {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .imagenIndex {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  /* ABOUT */
+
+  @media (max-width: 1024px) {
+    .contenedorAbout {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .imgAbout {
+      width: 100%;
+      height: auto;
+    }
+    
+    .dos {
+      display: none;
+    }
+  
+    .textoAbout {
+      max-width:max-content;
+    }
+  }
+
+  /* GRAPHIC */
+
+  @media (max-width: 768px) {
+    .containerG {
+      display: block;
+      border: none;
+      width: 310px;
+      height: 400px;
+    
+    }
+  
+    .gvid1 video {
+      width: 100%;
+      height: 100%;
+   
+     
+    }
+  
+    .gvid2 video {
+      width: 100%;
+      height: 100%;
+    }
+  }
